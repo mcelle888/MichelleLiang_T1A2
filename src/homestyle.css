@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    background-color: #55868C;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 1rem;
+    color: black;
+    text-decoration: none; 
+    text-align: center;
+    font-size: 1.35em;
+    font-family: verdana, sans-serif; 
+
+}
+
+li a:hover {
+    background-color: white;
+}
+
+
+.container1 {
+
+    width:100%;
+    height: 75vh;
+    background: #CACAAA;
+    display:flex;
+    justify-content: flex-end;
+ 
+    
+}
+
+.container1 > container2 {
+    width: 25%;
+    height: 75vh;
+    background: #7F636E;
+    display: flex;
+    
+
+}
+
+#pfp {
+    max-width: 50%;
+    max-height: 50%;
+    
+}
