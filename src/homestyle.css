@@ -97,8 +97,7 @@ body  {
     background-color: white;
     text-align: center; 
     display: flex;
-    justify-content: center;
-      
+    justify-content: center;    
 }
 
 
@@ -114,7 +113,6 @@ div2 {
 
 .icons:hover {
     transform: translateY(-25px);
-    
-       
+          
 }
 
