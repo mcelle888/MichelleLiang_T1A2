@@ -33,15 +33,16 @@ li a:hover {
 
 
 .container1 {
-    width: 100vw;
-    height: 100vh;
+  
     background: linear-gradient(to top, #7F636E 0%, #7F636E 80%, #CACAAA 80%, #CACAAA 100%);  
+    width: 100vw;
+    height: 100vh; 
     display: flex;
     justify-content:center;
-     
-    
+    background-size: 100% 100%;
     
 }
+ 
 
 #pfp {
     max-width: 25rem;
@@ -56,32 +57,33 @@ li a:hover {
 
 .container2 {
     display: flex;
-    position: relative; 
-    margin: 10vw;
-    top: -70vh;
+    position: absolute; 
+    margin: 4rem 1rem 4rem 1rem;
+    top: 30vh;
     justify-content: center;
     background-color: #CACAAA;
-    margin-bottom: -70vh;
     border-color: white;
     border-style: groove;
     padding: 1rem;
+    
+
 }
 
 .container3 {
     display: flex;
-    position: relative; 
+    position: absolute; 
     justify-content: center;
-    margin: 10vw;
-    top: -1vh;
+    margin: 6rem 1rem 4rem 1rem;
+    top: 50vh;
     background-color: grey;
     border-color: white;
     border-style: groove;
-    margin-bottom: -1vh;
     font-family: vernda, sans-serif;
     padding: 1rem; 
+    min-height: 20vh
     
 }
-
+ 
 .footer {
     background-color: white;
     position: fixed;
@@ -90,23 +92,28 @@ li a:hover {
     width: 100%;
     text-align: center;
     
+    
 }
 
 
 div2 {
-    display: flex; 
+    /* display: flex;  */
     justify-content: center;
     filter: invert(100%);
-    margin-top: 2em; 
-    position: relative;
-   
+    margin: 1rem 0 1rem 0;
+    position: absolute;
+    top: 90vh; 
+    left: 50%;
+    transform: translate(-50%, 0);
     
-}
-
+  
+}  
+    
+    
+ 
 .icons {
     transition-duration: 0.5s;
-    
-    
+    display: flex;
 }
 
 .icons:hover {
