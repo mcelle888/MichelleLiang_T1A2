@@ -38,6 +38,8 @@ li a:hover {
     width: 100%;
 }
 
+ 
+
 .heading h1 {
     position: absolute; 
     background-color: grey;
@@ -84,7 +86,7 @@ li a:hover {
 
 #d1, #d2, #d3, #d4 {
     max-width:50vw;
-    max-height:50vh;
+    max-height:50vW;
     margin-left: 25vw; 
     margin-bottom: 0.2rem;
     border-color: white;
@@ -93,11 +95,11 @@ li a:hover {
 
  .footer {
     background-color: white;
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
     text-align: center;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
     
 }
 

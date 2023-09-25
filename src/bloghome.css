@@ -75,21 +75,30 @@ li a:hover {
     border-style: groove;
  }
 
-#d1, #d2, #d3, #d4 {
+.d1 {
     max-width:50vw;
     max-height:50vh;
     margin: 1em 0 0.2rem 25vw;
     border-color: white;
     border-style: groove;
+    transition: transform 2s; 
+  
+
+}
+
+.d1:hover {
+   transform: scale(1.1);
+
 }
 
  .footer {
     background-color: white;
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
     text-align: center;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    
      
 }
 
