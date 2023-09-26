@@ -45,17 +45,11 @@ li a:hover {
  
 /* First Heading */
 
- .heading h1 {
- 
-    background-color: grey;
-    font-size: 1em;
-    font-family:Trebuchet, sans-serif;
-    font-weight: 100;
-    color: black;
-    padding: 1.2rem;
-    border-style: groove;
-    margin: 2rem 3rem 0rem 3rem;
-    text-align: center;
+ .heading  {
+    margin: 2rem 2rem 0.5rem 6rem;
+    width: 12rem;
+    height: 7rem;
+    justify-content: center;
  }
 
 /* Main body article*/
@@ -78,6 +72,7 @@ li a:hover {
     border-color: white;
     border-style: groove;
     margin: 1rem 2rem 0.5rem 2rem; 
+    font-family: garamond, serif;
  } 
 
  /* Text paragraphs and pictures */
@@ -87,6 +82,7 @@ li a:hover {
     margin: 1rem 1rem 2rem 1rem;
     border-color: white;
     border-style: groove;
+    font-family: garamond, serif;
  }
 
 #d1, #d2, #d3, #d4 {
@@ -105,7 +101,7 @@ li a:hover {
     text-align: center;
     display:flex;
     align-items: flex-end;
-    justify-content: center;
-      
+    justify-content: center;     
+    font-family: garamond, serif;
 }
 

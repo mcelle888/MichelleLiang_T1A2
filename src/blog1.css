@@ -4,12 +4,7 @@
     padding:0; 
 }
 
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-}
-
+/* Navigation Bar */
 ul {
     overflow: hidden;
     list-style-type: none;
@@ -35,6 +30,7 @@ li a:hover {
     background-color: grey;
 }
 
+/* Background */
 
 #container1 {
     display: flex;
@@ -44,31 +40,36 @@ li a:hover {
 }
 
 
-    
+ /* Main Section    */
+
  div2 {
     display:flex;
     flex-direction: column;
     justify-content: center;
     
  }
-
+/* main heading */
  .heading {
     padding: 1.2rem;
     background-color:#C8AB83; 
     text-align: center; 
     padding: 0.5em;
     color: black; 
-    font-weight: 100;
+    font-weight: 1;
     border-color: white;
     border-style: groove;
     margin: 2rem 1rem 1rem 1rem; 
     width: 16rem;
+    font-family: garamond, serif;
  } 
-
+/* subheadings */
  header {
     display: flex;
     justify-content: center;
+    font-family: garamond, serif;
  }
+
+/* left and right navigations */
 
  #left, #right {
     height: 2rem; 
@@ -76,6 +77,7 @@ li a:hover {
     margin: 2.5rem 0 1rem 0; 
  }
 
+/*color change on left and right */
 
 #right:hover  {
     background-color: #7F636E;
@@ -84,6 +86,7 @@ li a:hover {
     background-color:#7F636E
 }
 
+/* subheadings */
 .sub{
     display: flex;
     justify-content: center;
@@ -94,13 +97,22 @@ li a:hover {
 
  .para1 {
     background-color: rgba(127,99,110);
-    padding: 1.5rem;
+    padding: 2rem;
     margin: 1rem;
     border-color: white;
     border-style: groove;
     height: 10rem; 
-    width: 90vw
+    width: 90vw;
+    font-family: garamond, serif; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:flex-start;
     
+ }
+
+ ul.para1 {
+    list-style-type: circle;
+
  }
 
  .para2 {
@@ -111,19 +123,27 @@ li a:hover {
     border-style: groove;
     height: 25rem;
     width: 90vw; 
+    font-family: garamond, serif;
+    flex-wrap: wrap;
+    justify-content:flex-start;
  }
+
+ ol.para2 {
+    list-style-type:decimal
+ }
+
+ /* picture */
 
 #d1 {
     max-width:50vw;
     max-height:50vW;
-    margin-left: 25vw; 
-    margin-bottom: 1.2rem;
-    margin-top: 0.8rem; 
     border-color: white;
     border-style: groove;
+    margin:0.8rem 0 1.2rem 25vw; 
 }
 
 
+/* footer */
 
 .footer {
     background-color: white;
@@ -131,7 +151,7 @@ li a:hover {
     text-align: center;
     display:flex;
     align-items: flex-end;
-    
     justify-content: center;   
+    font-family: garamond, serif;
 }
 

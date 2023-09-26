@@ -55,9 +55,10 @@ li a:hover {
     text-align: center; 
     padding: 0.5em;
     color: black;
-    font-weight: 100;
+    font-weight: 1;
     border-color: white;
     border-style: groove;
+    font-family: garamond, serif;
  } 
 
  .para1 {
@@ -66,6 +67,7 @@ li a:hover {
     margin: 1rem 1rem 0.5rem 1rem;
     border-color: white;
     border-style: groove;
+    font-family: garamond, serif;
  }
 /* wanted different margins on last paragraph so set up id */
  #lastpara {
@@ -74,6 +76,7 @@ li a:hover {
     margin: 1rem 1rem 2rem 1rem;
     border-color: white;
     border-style: groove;
+    font-family: garamond, serif;
  }
 
  /* picture */
@@ -92,6 +95,7 @@ li a:hover {
     display:flex;
     align-items: flex-end;
     justify-content: center;
+    font-family: garamond, serif;
 }
 
 /* responsiveness */
