@@ -81,14 +81,18 @@ li a:hover {
     margin: 1em 0 0.2rem 25vw;
     border-color: white;
     border-style: groove;
-    transition: transform 2s; 
-  
-
 }
 
-.d1:hover {
-   transform: scale(1.1);
 
+.readlink:link {
+    color:#C8AB83 
+}
+.readlink:visited {
+    color: #55868C  
+}
+ 
+.readlink:hover {
+    color:pink;
 }
 
  .footer {

@@ -4,6 +4,8 @@
     padding:0;
 }
 
+/* Navigation Bar */
+
 ul {
     overflow: hidden;
     list-style-type: none;
@@ -23,13 +25,14 @@ li a {
     text-align: center;
     font-size: 0.7em;
     font-family: verdana, sans-serif; 
-    
-
 }
 
 li a:hover {
     background-color: grey;
 }
+
+
+/* Background of main body */
 
 .container1 {
     display: flex;
@@ -40,47 +43,48 @@ li a:hover {
 }
 
  
+/* First Heading */
 
-.heading h1 {
-    position: absolute; 
+ .heading h1 {
+ 
     background-color: grey;
-    margin-top: 1.2em;
     font-size: 1em;
-    font-family:vernda, sans-serif;
+    font-family:Trebuchet, sans-serif;
     font-weight: 100;
     color: black;
     padding: 1.2rem;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -0);
     border-style: groove;
+    margin: 2rem 3rem 0rem 3rem;
+    text-align: center;
  }
-    
- div2 {
+
+/* Main body article*/
+
+ article {
     display:flex;
     flex-direction: column;
     justify-content: center;
     
  }
 
+ /* Second Heading */
  .subheading {
     padding: 1.2rem;
     background-color:#C8AB83; 
-    margin: 2rem;
-    margin-top: 6rem; 
     text-align: center; 
     padding: 0.5em;
     color: black;
-    margin-bottom: -0.2rem;
     font-weight: 100;
     border-color: white;
     border-style: groove;
+    margin: 1rem 2rem 0.5rem 2rem; 
  } 
 
+ /* Text paragraphs and pictures */
  .para1 {
     background-color: #7F636E;
     padding: 2rem;
-    margin: 1rem;
+    margin: 1rem 1rem 2rem 1rem;
     border-color: white;
     border-style: groove;
  }
@@ -88,11 +92,12 @@ li a:hover {
 #d1, #d2, #d3, #d4 {
     max-width:50vw;
     max-height:50vW;
-    margin-left: 25vw; 
-    margin-bottom: 0.2rem;
     border-color: white;
     border-style: groove;
+    margin: 0 0 0.8rem 25vw;
 }
+
+/* Footer */
 
  .footer {
     background-color: white;
@@ -101,6 +106,6 @@ li a:hover {
     display:flex;
     align-items: flex-end;
     justify-content: center;
-    
+      
 }
 
