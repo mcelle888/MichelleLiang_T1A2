@@ -120,3 +120,45 @@ figure {
     justify-content: center;    
     font-family: Garamond, serif; 
 }
+
+
+/* Responsiveness */
+
+/* Tablet */
+
+@media only screen and (min-width:480px) and (max-width:900px) {
+
+
+}
+
+
+/* Desktop */
+
+@media only screen and (min-width:900px) {
+    body  {
+            background: linear-gradient(to left, #CACAAA 0%, #CACAAA 28%, #7F636E  28%, #7F636E 100%);     
+           
+        }
+
+    .backgr {
+            flex-direction: row;
+            flex-wrap:wrap
+        }
+    #pfp {
+        width: 24vw;
+        height: 25vw;
+        margin-left: 44vw; 
+    }
+
+    .container1, .container2 {
+        max-width: 55vw;
+        height: 15vw;
+        flex-direction: row;
+        justify-content: flex-start; 
+        margin-right: 35vw;
+    }
+
+}
+
+
+

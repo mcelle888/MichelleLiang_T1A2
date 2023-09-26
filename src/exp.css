@@ -79,6 +79,18 @@ li a:hover {
     font-family: garamond, serif;
  }
 
+ .readlink:link {
+    color:#C8AB83 
+}
+.readlink:visited {
+    color: #55868C  
+}
+ 
+.readlink:hover {
+    color:pink;
+}
+
+
  /* picture */
 #d1 {
     max-width:50vw;
@@ -98,4 +110,20 @@ li a:hover {
     font-family: garamond, serif;
 }
 
-/* responsiveness */
+/* Responsiveness */
+
+/* Tablet */
+
+@media only screen and (min-width:481px) and (max-width:850px) {
+
+
+}
+
+
+/* Desktop */
+
+@media only screen and (min-width:850px) {
+
+}
+
+

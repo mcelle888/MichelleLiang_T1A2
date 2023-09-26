@@ -50,6 +50,7 @@ li a:hover {
     width: 12rem;
     height: 7rem;
     justify-content: center;
+   
  }
 
 /* Main body article*/
@@ -84,6 +85,18 @@ li a:hover {
     border-style: groove;
     font-family: garamond, serif;
  }
+
+ /* Hover on  "Read more" links */
+.readlink:link {
+    color:#C8AB83 
+}
+.readlink:visited {
+    color: #55868C  
+}
+ 
+.readlink:hover {
+    color:pink;
+}
 
 #d1, #d2, #d3, #d4 {
     max-width:50vw;
