@@ -123,10 +123,21 @@ section {
 
 /* Tablet */
 
-@media only screen and (min-width:480px) and (max-width:900px) {
+@media only screen and (min-width:480px) and (max-width:899px) {
 
     li a {
         font-size: 1em; 
+    }
+
+    .subheading {
+        font-size: 3em; 
+        margin: 1em
+    }
+
+    .para1, #lastpara {
+        height: 40vw;
+        width: 75vw;
+        font-size: 1.3em
     }
 
 }
@@ -136,11 +147,32 @@ section {
 @media only screen and (min-width:900px) {
 
  li a {
-        font-size: 1em; 
+        font-size: 1.2em; 
     }
 
+section {
+    flex-flow: row wrap; 
+}
+
+.d1 {
+   width: 25vw;
+   height: 20vw;
+   margin-left: 2vw;
+}
+
+.subheading {
+    font-size: 1.5em;
+    width: 15vw; 
+    height:5rem;
+
+}
+
+.para1, #lastpara {
+    width: 45vw;
+    height: 15rem
 
 
+}
 }
 
 

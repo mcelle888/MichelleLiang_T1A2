@@ -160,7 +160,7 @@ li a:hover {
 
 /* Tablet */
 
-@media only screen and (min-width:480px) and (max-width:900px) {
+@media only screen and (min-width:480px) and (max-width:899px) {
 
     li a {
         font-size: 1em; 
