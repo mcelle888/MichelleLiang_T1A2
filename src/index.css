@@ -36,7 +36,8 @@ li a:hover {
 
 main  { 
     height: 100%;
-    background: linear-gradient(to top, #7F636E 0%, #7F636E 78%, #CACAAA 78%, #CACAAA 100%);  
+    background: rgb(202,195,172);
+    background: radial-gradient(circle, rgba(202,195,172,1) 12%, rgba(202,170,178,1) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -159,8 +160,7 @@ figure {
     }
 
     main  {
-            background: linear-gradient(to left, #CACAAA 0%, #CACAAA 20%, #7F636E  20%, #7F636E 100%);    
-            flex-direction: row-reverse;
+    
             flex-wrap: wrap;
             justify-content: space-around;
      

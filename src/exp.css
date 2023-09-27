@@ -7,8 +7,8 @@
 /* Background */
 body{
     display: flex;
-    background-color: #CACAAA;
-    background-image: url(/src/pictures/background.png);
+    background: rgb(202,170,178);
+    background: radial-gradient(circle, rgba(202,170,178,1) 0%, rgba(202,202,170,1) 100%);
     height: 100%;
     width: 100%;
     flex-direction: column;

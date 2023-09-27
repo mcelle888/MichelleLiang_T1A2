@@ -8,7 +8,8 @@
 
 body{
     display: flex;
-    background-color: #CACAAA;
+    background: rgb(202,204,170);
+    background: radial-gradient(circle, rgba(202,204,170,1) 0%, rgba(202,170,178,1) 58%);
     height: 100%;
     width: 100%;
     flex-direction: column;
