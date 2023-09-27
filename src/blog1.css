@@ -155,20 +155,31 @@ li a:hover {
     font-family: garamond, serif;
 }
 
-/* Responsiveness */
+
+/* Responsive Design */
 
 /* Tablet */
 
-@media only screen and (min-width:481px) and (max-width:850px) {
+@media only screen and (min-width:480px) and (max-width:900px) {
 
+    li a {
+        font-size: 1em; 
+    }
 
 }
-
 
 /* Desktop */
 
-@media only screen and (min-width:850px) {
+@media only screen and (min-width:900px) {
+
+ li a {
+        font-size: 1em; 
+    }
+
+
 
 }
+
+
 
 

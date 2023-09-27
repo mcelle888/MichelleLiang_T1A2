@@ -4,6 +4,13 @@
     padding:0;
 }
 
+/* Background color */
+
+body {
+    background-color:#CACAAA
+}
+
+
 /* Navigation Bar */
 
 ul {
@@ -11,6 +18,7 @@ ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
+    background-color: white
 }
 
 li {
@@ -31,26 +39,19 @@ li a:hover {
     background-color: grey;
 }
 
-
-/* Background of main body */
-
-.container1 {
-    display: flex;
-    background-color: #CACAAA;
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-}
-
  
 /* First Heading */
 
  .heading  {
-    margin: 2rem 2rem 0.5rem 6rem;
+    margin-top: 1.5rem;
     width: 12rem;
     height: 7rem;
+    
+ }
+
+ header {
     justify-content: center;
-   
+    display: flex;
  }
 
 /* Main body article*/
@@ -67,13 +68,14 @@ li a:hover {
     padding: 1.2rem;
     background-color:#C8AB83; 
     text-align: center; 
-    padding: 0.5em;
     color: black;
     font-weight: 100;
     border-color: white;
     border-style: groove;
     margin: 1rem 2rem 0.5rem 2rem; 
     font-family: garamond, serif;
+    width: 60vw; 
+    align-self: center;
  } 
 
  /* Text paragraphs and pictures */
@@ -84,6 +86,7 @@ li a:hover {
     border-color: white;
     border-style: groove;
     font-family: garamond, serif;
+    width: 60vw
  }
 
  /* Hover on  "Read more" links */
@@ -100,10 +103,16 @@ li a:hover {
 
 #d1, #d2, #d3, #d4 {
     max-width:50vw;
-    max-height:50vW;
+    max-height:50vw;
     border-color: white;
     border-style: groove;
-    margin: 0 0 0.8rem 25vw;
+    margin-bottom: 1rem;
+    align-self: center; 
+     
+}
+
+#d4 {
+    max-height: 60vh;
 }
 
 /* Footer */
@@ -118,3 +127,40 @@ li a:hover {
     font-family: garamond, serif;
 }
 
+/* Responsive Design */
+
+/* Tablet */
+
+@media only screen and (min-width:480px) and (max-width:900px) {
+
+    li a {
+        font-size: 1em; 
+    }
+
+   #d1, #d2 {
+    align-items: 
+ 
+
+   }
+
+/* Desktop */
+
+@media only screen and (min-width:900px) {
+
+ li a {
+        font-size: 1em; 
+    }
+
+.subheading {
+    width: 20vw; 
+
+
+}
+
+.para1 {
+    width: 20vw;
+
+}
+
+
+}

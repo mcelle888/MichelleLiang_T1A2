@@ -32,24 +32,15 @@ li a:hover {
     background-color: grey;
 }
 
-/* Main section and background */
-.backgr {
-    width: 100%;
-    height: 100%; 
-    display: flex;
-    justify-content:center;
-    background-size: 100% 100%;
-    flex-direction: column;
-    align-items: center;
-    
-}
+/* Main section */
 
-
-body  {
-    overflow-x: hidden;
+main  { 
     height: 100%;
     background: linear-gradient(to top, #7F636E 0%, #7F636E 78%, #CACAAA 78%, #CACAAA 100%);  
-   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 
@@ -58,7 +49,6 @@ body  {
 #pfp {
     width: 50vw;
     height: 55vw;
-    display: flex;
     display: center;
     border-radius: 50%;
     margin-top: 2rem;
@@ -92,6 +82,7 @@ body  {
     font-family: Garamond, serif; 
     padding: 1rem; 
     width: 80vw;
+     
     
 }
 
@@ -119,46 +110,81 @@ figure {
     display: flex;
     justify-content: center;    
     font-family: Garamond, serif; 
+
 }
 
 
-/* Responsiveness */
+/* Responsive Design */
 
 /* Tablet */
 
 @media only screen and (min-width:480px) and (max-width:900px) {
 
+    figure {
+        padding: 5rem 20rem 10rem 20rem; 
+      }
+    
+    .icons {
+        transform: scale(1.5)
+    }
+
+    .container1, .container2 {
+        height: 20vh;
+        font-size: 1.2em;
+  }
+    figure {
+        padding: 0 0 0 0; 
+
+  }
 
 }
-
 
 /* Desktop */
 
 @media only screen and (min-width:900px) {
-    body  {
-            background: linear-gradient(to left, #CACAAA 0%, #CACAAA 28%, #7F636E  28%, #7F636E 100%);     
-           
+
+
+    li a {
+        font-size: 1em; 
+    }
+
+    main  {
+            background: linear-gradient(to left, #CACAAA 0%, #CACAAA 20%, #7F636E  20%, #7F636E 100%);    
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            justify-content: space-around;
+     
         }
 
-    .backgr {
-            flex-direction: row;
-            flex-wrap:wrap
-        }
+           
+        
     #pfp {
-        width: 24vw;
-        height: 25vw;
-        margin-left: 44vw; 
+        width: 20vw;
+        height: 20vw;
+        margin-right: 3vw
+        
     }
 
     .container1, .container2 {
-        max-width: 55vw;
+        max-width: 50vw;
         height: 15vw;
         flex-direction: row;
         justify-content: flex-start; 
-        margin-right: 35vw;
+        margin: 10vh 0 10vh 0
+   
+    }
+    .icons{
+      margin: 1rem 0 6rem 0;
+      align-items: center;
+      transform:scale(1.5);
     }
 
-}
+    figure {
+      padding: 0 20rem 0 20rem; 
+
+    }
+
+
 
 
 
