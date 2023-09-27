@@ -4,12 +4,17 @@
     padding:0;
 }
 
-/* Background color */
+/* Background */
 
 body {
-    background-color:#CACAAA
+    display: flex;
+    background-color: #CACAAA;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    
 }
-
 
 /* Navigation Bar */
 
@@ -40,7 +45,13 @@ li a:hover {
 }
 
  
-/* First Heading */
+/* Main Body */
+
+section {
+    display:flex;
+    flex-direction: column;
+    align-items:center; 
+}
 
  .heading  {
     margin-top: 1.5rem;
@@ -54,15 +65,7 @@ li a:hover {
     display: flex;
  }
 
-/* Main body article*/
-
- article {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    
- }
-
+ 
  /* Second Heading */
  .subheading {
     padding: 1.2rem;
@@ -72,21 +75,28 @@ li a:hover {
     font-weight: 100;
     border-color: white;
     border-style: groove;
-    margin: 1rem 2rem 0.5rem 2rem; 
     font-family: garamond, serif;
-    width: 60vw; 
-    align-self: center;
+    margin: 1rem 2rem -0.2rem 2rem;
+    
+   
  } 
+
+ main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+ }
 
  /* Text paragraphs and pictures */
  .para1 {
     background-color: #7F636E;
     padding: 2rem;
-    margin: 1rem 1rem 2rem 1rem;
+    margin: 1rem 2rem -0.2rem 2rem;
     border-color: white;
     border-style: groove;
     font-family: garamond, serif;
-    width: 60vw
+     
  }
 
  /* Hover on  "Read more" links */
@@ -102,12 +112,13 @@ li a:hover {
 }
 
 #d1, #d2, #d3, #d4 {
-    max-width:50vw;
-    max-height:50vw;
+    
     border-color: white;
     border-style: groove;
-    margin-bottom: 1rem;
-    align-self: center; 
+    max-width:50vw;
+    max-height:50vh;
+    margin: 1em 0 0.2rem 0;
+   
      
 }
 
