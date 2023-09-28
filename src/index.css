@@ -52,7 +52,6 @@ main  {
 #pfp {
     width: 50vw;
     height: 55vw;
-    display: center;
     border-radius: 50%;
     margin-top: 2rem;
     border-color: white;
@@ -85,14 +84,11 @@ main  {
     font-family: Garamond, serif; 
     padding: 1rem; 
     width: 80vw;
-
-    
-    
-     
-    
+   
 }
 
 /* Social media icons */
+
 figure {
     filter: invert(100%);
     margin: 1rem 0 2rem 0;   
@@ -104,7 +100,7 @@ figure {
 }
 
 .icons:hover {
-    transform: translateY(-25px);
+    transform: translateY(-10px);
           
 }
 
@@ -127,74 +123,66 @@ figure {
 @media only screen and (min-width:480px) and (max-width:899px) {
 
     li a {
-        font-size: 1em; 
+        font-size: 0.9em; 
+    }
+
+    #pfp {
+        width: 40vw;
+        height: 40vw;
+        margin-right: 3vw  
     }
 
 
-    figure {
-        padding: 5rem 20rem 10rem 20rem; 
-      }
-    
-    .icons {
-        transform: scale(1.5)
+    .container1,  {
+        height: 40vh;
+        font-size: 1em;   
     }
 
-    .container1, .container2 {
-        height: 20vh;
-        font-size: 1.2em;
-  }
-    figure {
-        padding: 0 0 0 0; 
-
-  }
-
+    .container2 {
+        height: 30vh;
+        font-size: 1em;
+    }
 }
+
 
 /* Desktop */
 
 @media only screen and (min-width:900px) {
-
 
     li a {
         font-size: 1em; 
     }
 
     main  {
-    
-            flex-wrap: wrap;
-            justify-content: space-around;
-     
-        }
-
-           
-        
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+    }
+                  
     #pfp {
-        width: 20vw;
-        height: 20vw;
-        margin-right: 3vw
-        
+        width: 24vw;
+        height: 26vw;
     }
 
     .container1, .container2 {
         max-width: 50vw;
-        height: 15vw;
-        flex-direction: row;
-        justify-content: flex-start; 
-        margin: 10vh 0 10vh 0
-   
+        height: 20vw;
+        margin: 4rem 0 0 0
     }
+
+    .container2 {
+        height: 30vh;
+    }
+
     .icons{
-      margin: 1rem 0 6rem 0;
+      margin: 2rem 0 1rem 0;
       align-items: center;
-      transform:scale(1.5);
     }
 
     figure {
       padding: 0 20rem 0 20rem; 
-
     }
-
-
+}
 
 
 
