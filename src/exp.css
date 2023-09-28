@@ -5,6 +5,7 @@
 }
 
 /* Background */
+
 body{
     display: flex;
     background: rgb(202,170,178);
@@ -55,33 +56,38 @@ article {
 
  .subheading {
     padding: 1.2rem;
-    background-color:#C8AB83; 
-    margin: 1rem 2rem -0.2rem 2rem;
+    background-color:rgba(200, 171, 131, 0.6);
     text-align: center; 
-    padding: 0.5em;
+    padding: 0.5em 2em 0.5em;
     color: black;
     font-weight: 1;
     border-color: white;
     border-style: groove;
     font-family: garamond, serif;
+    border-radius: 65px;
  } 
 
  .para1 {
-    background-color: #7F636E;
+    background-color:rgba(127,99,110,0.5) ;
     padding: 2rem;
-    margin: 1rem 1rem 0.5rem 1rem;
+    margin: 1rem 1rem 0.5rem;
     border-color: white;
     border-style: groove;
     font-family: garamond, serif;
+    border-radius: 65px;
+    height: 50vw;
  }
+
 /* wanted different margins on last paragraph so set up id */
  #lastpara {
-    background-color: #7F636E;
+    background-color: rgba(127,99,110,0.5);
     padding: 2rem;
-    margin: 1rem 1rem 2rem 1rem;
+    margin: 1rem 1rem 2rem;
     border-color: white;
     border-style: groove;
     font-family: garamond, serif;
+    border-radius: 65px;
+    height: 50vw;
  }
 
  .readlink:link {
@@ -103,10 +109,11 @@ article {
 #d1 {
     max-width:50vw;
     max-height:50W;
-    margin: 1em 0 0.2rem 0;
+    margin: 1em 0 0.2rem;
     border-color: white;
     border-style: groove;
     justify-content: center;
+    border-radius: 20px;
 }
 
 /* footer */
@@ -131,46 +138,66 @@ article {
         font-size: 1em; 
     }
 
-    article {
-        flex-direction: row;
-        flex-wrap: wrap; 
-        justify-content: space-around;
-    }
 
-   #d1 {
+    #d1 {
     width: 15rem;
-    height:15rem;
-     
+    height:15rem;  
+    justify-content: flex-end;
+    order: 
+  
    }
 
-   .para1, #lastpara  {
-    width: 30vw;
-    height: 30vw;
-    margin-left: -10em
-   }
-
-   #lastpara {
-    width:60vw;
-    margin-top: 5em
-   }
    .subheading {
-    margin-bottom: 19rem;
-   
-   }
 
+    width: 10em;
+    height:3em;
+    padding-top: 1rem;
+}
+  
 }
 
 /* Desktop */
 
 @media only screen and (min-width:900px) {
 
- li a {
-        font-size: 1em; 
+li a {
+    font-size: 1em;     
     }
 
+
+
+#d1 {
+    width: 25vw;
+    height: 25vw; 
+    order: 1; 
+    margin-left: 36vw;
+  
+    
 }
 
+article {
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-content: space-evenly;
+}
 
+.subheading {
+    justify-content: flex-start;
+    order: -1;
+    margin: 5vw ;
+    margin-bottom: -1vw;
+    width: 22vw
+}
 
+.para1, #lastpara {
+    width: 25vw;
+    height: 30vw;
+    margin: 3vw;
+    margin-left:4vw;
+}
 
+#lastpara {
+    margin-top: 2rem; 
+}
 
+}

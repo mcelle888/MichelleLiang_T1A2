@@ -56,35 +56,42 @@ section {
 
  .subheading {
     padding: 1.2rem;
-    background-color:#C8AB83; 
-    margin: 1rem 2rem -0.2rem 2rem;
+    background-color:rgba(200, 171, 131, 0.6);
+    margin: 1rem 2rem -0.2rem;
     text-align: center; 
-    padding: 0.5em;
+    padding: 0.5em 1em 0.5em;
     color: black;
     font-weight: 1;
     border-color: white;
     border-style: groove;
     font-family: garamond, serif;
+    border-radius: 50px;
  } 
 
  .para1 {
-    background-color: #7F636E;
+    background-color: rgba(127,99,110,0.5);
     padding: 2rem;
-    margin: 1rem 1rem 0.5rem 1rem;
+    margin: 1rem 1rem 0.5rem;
     border-color: white;
     border-style: groove;
     font-family: garamond, serif;
+    border-radius: 50px; 
+    height: 50vw;
+    overflow:scroll; 
  }
 
  /* last paragraph has different margins again */
 
  #lastpara {
-    background-color: #7F636E;
+    background-color: rgba(127,99,110,0.5);
     padding: 2rem;
     margin: 1rem 1rem 2rem 1rem;
     border-color: white;
     border-style: groove;
     font-family: garamond, serif;
+    border-radius: 50px; 
+    height: 50vw;
+    overflow:scroll;
  }
 
  /* Pictures */
@@ -130,11 +137,11 @@ section {
 @media only screen and (min-width:480px) and (max-width:899px) {
 
     li a {
-        font-size: 1em; 
+        font-size: 0.8em; 
     }
 
     .subheading {
-        font-size: 3em; 
+        font-size: 2em; 
         margin: 1em
     }
 
@@ -166,16 +173,14 @@ section {
 
 .subheading {
     font-size: 1.5em;
-    width: 15vw; 
-    height:5rem;
-
+    width: 17vw; 
+    height:7rem;
+    padding-top: 2rem;
 }
 
 .para1, #lastpara {
     width: 45vw;
-    height: 15rem
-
-
+    height: 10rem
 }
 }
 

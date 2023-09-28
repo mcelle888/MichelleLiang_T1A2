@@ -70,7 +70,7 @@ section {
  /* Second Heading */
  
  .subheading {
-    padding: 1.2rem 4rem 1.2rem 4rem;
+    padding: 1.2rem 4rem;
     background-color: rgba(200, 171, 131, 0.6);
     text-align: center; 
     color: black;
@@ -78,22 +78,25 @@ section {
     border-color: white;
     border-style: groove;
     font-family: garamond, serif;
-    margin: 1rem 2rem -0.2rem 2rem;
+    margin: 1rem 2rem -0.2rem;
+    border-radius: 65px;
    
  } 
 
  /* Text paragraphs and pictures */
  .para1, .para2 {
     background-color: rgba(127,99,110,0.5);
-    padding: 2rem;
-    margin: 1rem 2rem -0.2rem 2rem;
+    padding: 2.5rem;
+    margin: 1rem 2rem -0.2rem;
     border-color: white;
     border-style: groove;
     font-family: garamond, serif;
+    border-radius: 65px;
      
  }
 
  /* Hover on  "here" link */
+
 .readlink:link {
     color:#C8AB83;
     text-decoration: none;
@@ -121,7 +124,8 @@ article {
     border-style: groove;
     max-width:50vw;
     max-height:50vh;
-    margin: 1em 0 0.2rem 0;    
+    margin: 1em 0 0.2rem;    
+    border-radius: 10px;
 }
 
 
@@ -154,6 +158,8 @@ article {
    #d1, #d2, #d3, #d4 {
         height: 30vw;
         width: 45vw;
+        margin-left: 1rem;
+        margin-right:1rem; 
     }
 
 }
@@ -176,21 +182,24 @@ section {
 }
 
 .subheading{
-    padding: 0.5rem 1rem 0.5rem 1rem; 
+    padding: 1rem 3rem; 
+    margin-left: 1vw;
+    
+
 }
 
 .para1 {
     width: 50vw;
     height: 30vw;
-    margin-left: -13em;
-    margin-top: 5rem; 
+    margin-left: -19em;
+    margin-top: 6rem; 
 }
 
 .para2 {
     width: 50vw;
     height: 30vw;
-    margin-left: -17em;
-    margin-top: 5rem; 
+    margin-left: -22em;
+    margin-top: 6rem; 
     
 }
 
@@ -200,5 +209,8 @@ section {
     height:20vw;    
     margin-right: 3vw
 }
-}
 
+#d4 {
+    margin-bottom: 2em;
+}
+}
