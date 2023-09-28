@@ -75,7 +75,8 @@ article {
     border-style: groove;
     font-family: garamond, serif;
     border-radius: 65px;
-    height: 50vw;
+    height: 100vw;
+    overflow: scroll;
  }
 
 /* wanted different margins on last paragraph so set up id */
@@ -87,7 +88,7 @@ article {
     border-style: groove;
     font-family: garamond, serif;
     border-radius: 65px;
-    height: 50vw;
+    height: 70vw;
  }
 
  .readlink:link {
@@ -143,7 +144,7 @@ article {
     width: 15rem;
     height:15rem;  
     justify-content: flex-end;
-    order: 
+   
   
    }
 
@@ -152,6 +153,12 @@ article {
     width: 10em;
     height:3em;
     padding-top: 1rem;
+}
+
+.para1, #lastpara {
+    width: 75vw;
+    height: 55vw;
+    font-size: 3vw;
 }
   
 }
@@ -194,6 +201,9 @@ article {
     height: 30vw;
     margin: 3vw;
     margin-left:4vw;
+    font-size: 1.2vw;
+    overflow: scroll;
+   
 }
 
 #lastpara {

@@ -178,7 +178,8 @@ section {
 
 .para1, #lastpara {
     width: 45vw;
-    height: 10rem
+    height: 10rem;
+    font-size: 1.3vw;
 }
 }
 

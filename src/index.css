@@ -64,7 +64,7 @@ main  {
      display: flex;
      margin: 1rem 1rem 1rem 1rem;
      justify-content: center;
-     background-color: #CACAAA;
+     background-color: rgba(200, 171, 131, 0.4);
      border-color: white;
      border-style: groove;
      padding: 2rem;
@@ -77,7 +77,7 @@ main  {
 
     display: flex;
     margin: 0.1rem 1rem 1rem 1rem;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.4);
     border-color: white;
     border-style: groove;
     font-family: Garamond, serif; 
@@ -134,12 +134,12 @@ figure {
 
     .container1  {
         height: 40vh;
-        font-size:1em;   
+        font-size:3vw;   
     }
 
     .container2 {
         height: 30vh;
-        font-size: 1em;
+        font-size: 3vw;
         }
     }
 
@@ -167,8 +167,10 @@ figure {
 
     .container1, .container2 {
         max-width: 50vw;
-        height: 20vw;
+        max-height: 30vw;
         margin: 4rem 0 0 0;
+        font-size: 1.2vw;
+       
        
     }
 
@@ -177,12 +179,12 @@ figure {
     }
 
     .icons{
-      margin: 2rem 0 1rem 0;
+      margin: 2rem 0 2rem 0;
       align-items: center;
     }
 
     figure {
-      padding: 0 20rem 0 20rem; 
+      padding: 2rem 20rem 0 20rem; 
     }
 
 }
