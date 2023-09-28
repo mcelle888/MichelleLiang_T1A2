@@ -98,14 +98,17 @@ section {
 
 /* Hover on  "Read more" links */
 .readlink:link {
-    color:#C8AB83 
+    color:#C8AB83;
+    text-decoration: none; 
 }
 .readlink:visited {
-    color: #55868C  
+    color: #55868C;
+    text-decoration: none;  
 }
  
 .readlink:hover {
     color:pink;
+    text-decoration: none;
 }
 
 /* footer */

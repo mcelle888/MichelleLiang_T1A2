@@ -6,9 +6,9 @@
 
 /* Navigation bar */
 ul {
+    display: flex;
     overflow: hidden;
     list-style-type: none;
-    display: flex;
     justify-content: center;
     background-color: white;
 }
@@ -167,7 +167,8 @@ figure {
     .container1, .container2 {
         max-width: 50vw;
         height: 20vw;
-        margin: 4rem 0 0 0
+        margin: 4rem 0 0 0;
+        overflow: scroll;
     }
 
     .container2 {
