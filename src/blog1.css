@@ -147,6 +147,7 @@ li a:hover {
     max-height:50vW;
     border-color: white;
     border-style: groove;
+    border-width: 1em;
     margin:0.8rem 0 1.2rem 0; 
     animation: zoom 2s alternate infinite
 }
@@ -164,7 +165,20 @@ li a:hover {
     font-family: garamond, serif;
 }
 
-
+/* Animation for border */
+@keyframes zoom {
+    
+    0% {
+        border-color:white;
+    }
+    75% {
+        border-color: rgba(200, 171, 131)
+    }
+    
+    100% {
+        border-color: rgba(127,99,110,0.5); 
+    }
+}
 
 
 /* Responsive Design */
@@ -189,20 +203,7 @@ li a:hover {
         font-size: 1.3em;
     }
 }
-/* Animation for border */
-@keyframes zoom {
-    
-    0% {
-        border-color:white;
-    }
-    75% {
-        border-color: rgba(200, 171, 131)
-    }
-    
-    100% {
-        border-color: rgba(127,99,110,0.5); 
-    }
-}
+
 
 /* Desktop */
 

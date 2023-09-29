@@ -76,7 +76,7 @@ article {
     font-family: garamond, serif;
     border-radius: 65px;
     height: 100vw;
-    overflow: scroll;
+     
  }
 
 /* wanted different margins on last paragraph so set up id */
@@ -89,7 +89,7 @@ article {
     font-family: garamond, serif;
     border-radius: 65px;
     height: 70vw;
-    overflow: scroll;
+   
  }
 
  .readlink:link {
