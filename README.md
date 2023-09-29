@@ -1,13 +1,11 @@
-# Michelle Liang T1A2
+# Michelle Liang Term 1 Assignment 2: Website Portfolio
 
 
 ## Links to content
 
 [Github](https://github.com/mcelle888/MichelleLiang_T1A2)\
-[Website](https://michelle-liang-t1-a2-irgc0h48a-mcelle888s-projects.vercel.app/index.html)\
+[Website](https://michelle-liang-t1-a2-git-main-mcelle888s-projects.vercel.app/)\
 [Presentation](#present)
-
-
 
 
 ## Purpose and Target Audience
@@ -30,7 +28,7 @@ This content on this page is divided into three sections: "*Education*" (detaili
 #### Blogpost
 The blogs are centered around one of my hobbies: cakes! It links to four individual recipes with the link text highlighted in different colours when hovered. 
 
-#### Individual blogs (4) 
+#### Individual blogs (4 pages) 
 Each blogpost contains a more detailed description of each recipe. The texts both use list formats for readability. A larger photo is used to highlight the cake as the main attraction of the page. 
 
 
@@ -38,14 +36,82 @@ Each blogpost contains a more detailed description of each recipe. The texts bot
 ![Sitemap](docs/sitemap.png)
 
 ## Wireframes
+### Home Page Wireframes
+
+![Wireframes](docs/wireframes/WFhome_ph.png)
+![Wireframes](docs/wireframes/WFhome_tab.png)
+![Wireframes](docs/wireframes/WFhome_web.png)
+
+### About Page Wireframes
+
+![Wireframes](docs/wireframes/WFabt_ph.png)
+![Wireframes](docs/wireframes/WFabt_tablet.png)
+![Wireframes](docs/wireframes/WFabt_web.png)
+
+### Experience Wireframes
+
+![Wireframes](docs/wireframes/WFexp_ph.png)
+![Wireframes](docs/wireframes/WFexp_tablet.png)
+![Wireframes](docs/wireframes/WFexp_web.png)
+
+### Blog Home Wireframs
+![Wireframes](docs/wireframes/WFbloghome_ph.png)
+![Wireframes](docs/wireframes/WFbloghome_tablet.png)
+![Wireframes](docs/wireframes/WFbloghome_web.png)
+### Blogpost (1-4) Wireframes 
+
+![Wireframes](docs/wireframes/WFblog1_ph.png)
+![Wireframes](docs/wireframes/WFblog1_tablet.png)
+![Wireframes](docs/wireframes/WFblog1_web.png)
 
 ## Screenshots
+
+### Homepage screenshots
+#### Mobile
+![Screenshots](docs/screenshots/home_mobile.png)
+#### Tablet 
+![Screenshots](docs/screenshots/home_tablet.png)
+#### Web
+![Screenshots](docs/screenshots/home_desk.png)
+
+
+### About Me screenshots
+#### Mobile
+![Screenshots](docs/screenshots/abt_ph.png)
+#### Tablet 
+![Screenshots](docs/screenshots/abt_tablet.png)
+#### Web
+![Screenshots](docs/screenshots/abt_web.png)
+
+### Experience screenshots
+#### Mobile
+![Screenshots](docs/screenshots/exp_ph.png)
+#### Tablet 
+![Screenshots](docs/screenshots/exp_tablet.png)
+#### Web
+![Screenshots](docs/screenshots/exp_web.png)
+
+### Blog Home screenshots
+#### Mobile
+![Screenshots](docs/screenshots/bloghome_ph.png)
+#### Tablet 
+![Screenshots](docs/screenshots/bloghome_tablet.png)
+#### Web
+![Screenshots](docs/screenshots/bloghome_web.png)
+
+### Blogpost 1-4 screenshots
+#### Mobile
+![Screenshots](docs/screenshots/blog1_ph.png)
+#### Tablet 
+![Screenshots](docs/screenshots/blog1_tablet.png)
+#### Web
+![Screenshots](docs/screenshots/blog1_web.png)
 
 
 ## Tech Stack
 
  * HTML
- * CSS 
+ * CSS  
  * Deployment: [Vercel](https://vercel.com/)
 
 
