@@ -13,7 +13,7 @@ The pupose of this portfolio website is to create a platform that is easily acce
 
 ## Fuctionality and Features
 
-The website includes four main pages ("Home", "About", "Work" and "Blog Post") with 4 additional blog pages. All pages include a navigation bar on top which allows the user to easily navigate back to the main pages. The navigation bar's font size scales with the width of the screen to ensure easy readability across devices. Icons in the title's tabs have also been added to each page to allow the user to differentiate each page. Each page has a responsive layout to ensure easy access across multiple devices. The purpose and different features exclusive to each page are described below.
+The website includes four main pages ("Home", "About", "Work" and "Blog Post") with 4 additional blog pages. All pages include a navigation bar on top which allows the user to easily navigate back to the main pages. The navigation bar's font size scales with the width of the screen to ensure easy readability across devices. Icons in the tab's title have also been added to each page to allow the user to differentiate each page on their browser. Each page has a responsive layout to ensure easy access across multiple devices. The purpose and different features exclusive to each page are described below.
 
 #### Home Page
 The home page features a quick introduction to myself and the website. It also includes links to my contact details and social media accounts in the form of icons. 
