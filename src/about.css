@@ -215,4 +215,9 @@ section {
 #d4 {
     margin-bottom: 2em;
 }
+
+.heading {
+    width: 19vw;
+    height:10vw; 
+}
 }

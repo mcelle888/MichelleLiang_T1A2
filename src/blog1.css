@@ -84,9 +84,11 @@ li a:hover {
 
 #right:hover  {
     background-color: #7F636E;
+    transform: scale(1.4);
  }
 #left:hover {
-    background-color:#7F636E
+    background-color:#7F636E;
+    transform: scale(1.4);
 }
 
 /* subheadings */
@@ -146,6 +148,7 @@ li a:hover {
     border-color: white;
     border-style: groove;
     margin:0.8rem 0 1.2rem 0; 
+    animation: zoom 2s alternate infinite
 }
 
 
@@ -160,6 +163,8 @@ li a:hover {
     justify-content: center;   
     font-family: garamond, serif;
 }
+
+
 
 
 /* Responsive Design */
@@ -182,6 +187,20 @@ li a:hover {
 
     .sub, .para1, .para2{
         font-size: 1.3em;
+    }
+}
+/* Animation for border */
+@keyframes zoom {
+    
+    0% {
+        border-color:white;
+    }
+    75% {
+        border-color: rgba(200, 171, 131)
+    }
+    
+    100% {
+        border-color: rgba(127,99,110,0.5); 
     }
 }
 
@@ -210,7 +229,10 @@ li a:hover {
         font-size: 2em;
     }
 
- 
+    #d1 {
+        width: 35vw;
+        height: 25vw;
+    }
 }
 
 
