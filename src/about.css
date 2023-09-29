@@ -217,7 +217,8 @@ section {
 }
 
 .heading {
-    width: 19vw;
-    height:10vw; 
+    width: 0;
+    height:0;
+    visibility: hidden;
 }
 }
