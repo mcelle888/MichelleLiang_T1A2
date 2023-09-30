@@ -1,11 +1,11 @@
-# Michelle Liang Term 1 Assignment 2: Website Portfolio
+# Michelle Liang T1 A2: Website Portfolio
 
 
 ## Links to content
 
 [Github](https://github.com/mcelle888/MichelleLiang_T1A2)\
-[Website](https://michelle-liang-t1-a2-git-main-mcelle888s-projects.vercel.app/)\
-[Presentation](#present)
+[Website](https://michelle-liang-t1-a2.vercel.app/)\
+[Presentation Video](https://www.youtube.com/watch?v=sK06ms-bLZ4)
 
 
 ## Purpose and Target Audience
